@@ -6,10 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="eureka-provider" />
+        <module name="eureka-server" />
+        <module name="rabbitmq" />
+        <module name="service-feign" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-provider" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
       <module name="spring-cloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
